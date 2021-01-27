@@ -1,0 +1,128 @@
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-image: url(https://cdn.pixabay.com/photo/2014/07/01/12/35/taxi-381233_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+#uno{
+    color:red;
+}
+
+.calculadora{
+    box-shadow: 3px 1px 20px rgb(0, 0, 0);
+    opacity: 0.9;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 2vh;
+
+}
+
+.contenedorpantalla{
+    width: 70vw;
+    height: 25vh;
+    background:rgb(1, 5, 26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contenedorpantalla__pantalla{
+    width: 55vw;
+    height: 14vh;
+    display: flex;
+    background: rgb(200, 201, 200);
+    border: 2px solid #000;
+    color:red;
+    justify-content: center;
+    font-size: 6vh;
+
+}
+.numeros_operadores{
+    width: 70vw;
+    height: 75vh;
+    background: greenyellow;
+    flex-flow: row;
+    display:flex;
+   
+}
+
+
+.contenedor{
+    width: 50vw;
+    height: 75vh;
+    background: hsl(0, 0%, 26%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+.contenedor__hijo{
+    display:flex;
+    width: 14vw;
+    height: 12vh;
+    background: hsl(0, 0%, 26%);
+    align-items:center;
+    justify-content: center;   
+    font-size: 250%;
+    margin: 1px;
+    color: rgb(0, 0, 0);
+    font-family: 'Cairo', sans-serif;
+    border: none;
+    border-bottom: 1px solid white;
+
+ 
+}
+
+.operadores__hijo{
+    width: 14vw;
+    height: 9vh;
+    background: hsl(0, 0%, 26%);
+    margin :3vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;  
+    box-shadow: 1px 1px 1px rgb(252, 250, 250); 
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 100%;
+
+    
+    
+}
+
+.operadores{
+    background: hsl(0, 0%, 26%);
+    width: 20vw;
+    height: 70vh;
+    padding-top: 5vh;
+    padding-left: 1vh;
+    font-size: 250%;
+    align-items:center;
+    justify-content:center;    
+    font-family: 'Cairo', sans-serif;
+
+    
+}
+
+.contenedor__hijo:hover{
+    background: hsl(0, 0%, 21%);
+    border-bottom: 1px solid rgb(109, 223, 252);
+    color: rgb(252, 250, 250);
+    transition: 100ms;
+
+
+
+}
+.operadores__hijo:hover{
+    background: hsl(0, 0%, 21%);
+    box-shadow: 1px 1px 1px rgb(152, 232, 252);
+    color: rgb(252, 250, 250);
+
+
+}
