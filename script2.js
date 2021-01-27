@@ -6,7 +6,7 @@ const igual = document.getElementById("operador__igual");
 const clear = document.getElementById("clear");
 var resultado = document.getElementById("resultado");
 
-var operacion = "";
+var operacion = 0;
 var operandob = "";
 var operandoa = "";
 
